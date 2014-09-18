@@ -3,7 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSPA", "SimpleSPA\SimpleSPA.csproj", "{16F60648-C9D2-4049-BF49-BDA327EAEB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSPA.Tests", "SimpleSPA.Tests\SimpleSPA.Tests.csproj", "{86A6A53F-F425-4019-A471-E1B6E0447EE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{34F883ED-7347-4905-8FE5-AC820B3BDD80}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F60648-C9D2-4049-BF49-BDA327EAEB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F60648-C9D2-4049-BF49-BDA327EAEB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F60648-C9D2-4049-BF49-BDA327EAEB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F60648-C9D2-4049-BF49-BDA327EAEB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A6A53F-F425-4019-A471-E1B6E0447EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A6A53F-F425-4019-A471-E1B6E0447EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A6A53F-F425-4019-A471-E1B6E0447EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A6A53F-F425-4019-A471-E1B6E0447EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
